@@ -8,20 +8,16 @@
 		}
 	],
 	"require" : {
-		"php" : ">=7.1",
-		"ext-ctype" : "*"
-	},
-	"require-dev" : {
-		"phpdocumentor/phpdocumentor" : "2.*",
-		"phpunit/phpunit" : "^4.8 || ^5.7"
-	},
-	"suggest" : {
-		"psr/log" : "For optional PSR-3 debug logging"
+		"php" : ">=7.1"
 	},
 	"autoload" : {
 		"psr-4" : {
 			"test\\Test\\" : "src/"
 		}
 	},
-	"license" : "LGPL-2.1"
+	"license" : "LGPL-2.1",
+	"minimum-stability" : "stable",
+	"support" : {
+		"email" : "mehmetsamli@gmail.com"
+	}
 }
