@@ -19,10 +19,5 @@
 	"license" : "LGPL-2.1",
 	"support" : {
 		"email" : "mehmetsamli@gmail.com"
-	},
-	"extra": {
-        "branch-alias": {
-            "dev-master": "dev-master"
-        }
-    }
+	}
 }
