@@ -24,7 +24,7 @@
 		"phpunit/phpunit" : "^4.8 || ^5.7"
 	},
 	"suggest" : {
-		"psr/log" : "For optional PSR-3 debug logging",
+		"psr/log" : "For optional PSR-3 debug logging"
 	},
 	"autoload" : {
 		"psr-4" : {
