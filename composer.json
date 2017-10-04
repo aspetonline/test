@@ -2,6 +2,7 @@
 	"name" : "aspetonline/test",
 	"type" : "library",
 	"description" : "test project",
+	"homepage": "https://github.com/aspetonline/test",
 	"authors" : [{
 			"name" : "Mehmet Samli",
 			"email" : "mehmetsamli@gmail.com"
@@ -11,12 +12,12 @@
 		"php" : ">=7.1"
 	},
 	"autoload" : {
-		"psr-4" : {
-			"test\\Test\\" : "src/"
+		"psr-0" : {
+			"Test" : "src"
 		}
 	},
 	"license" : "LGPL-2.1",
-	"minimum-stability" : "stable",
+	"minimum-stability" : "dev-master",
 	"support" : {
 		"email" : "mehmetsamli@gmail.com"
 	}
