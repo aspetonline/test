@@ -17,7 +17,6 @@
 		}
 	},
 	"license" : "LGPL-2.1",
-	"minimum-stability" : "dev-master",
 	"support" : {
 		"email" : "mehmetsamli@gmail.com"
 	}
