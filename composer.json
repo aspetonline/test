@@ -13,7 +13,7 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"Test" : "src"
+			"Test\\" : "src/test"
 		}
 	},
 	"license" : "LGPL-2.1",
