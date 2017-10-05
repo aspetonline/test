@@ -18,12 +18,12 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Test\\" : "src/test"
+			"Test\\" : "src/Aspet"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"Test\\" : "src/test"
+			"Test\\" : "src/Aspet"
 		}
 	},
 	"license" : "LGPL-2.1",
