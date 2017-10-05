@@ -3,6 +3,11 @@
 	"type" : "library",
 	"description" : "test project",
 	"homepage": "https://github.com/aspetonline/test",
+	"keywords" : [
+		"aspetonline",
+		"test",
+		"psr-3"
+	],
 	"authors" : [{
 			"name" : "Mehmet Samli",
 			"email" : "mehmetsamli@gmail.com"
@@ -12,6 +17,11 @@
 		"php" : ">=7.1"
 	},
 	"autoload" : {
+		"psr-4" : {
+			"Test\\" : "src/test"
+		}
+	},
+	"autoload-dev" : {
 		"psr-4" : {
 			"Test\\" : "src/test"
 		}
