@@ -4,9 +4,7 @@
 	"description" : "test project",
 	"homepage": "https://github.com/aspetonline/test",
 	"keywords" : [
-		"aspetonline",
-		"test",
-		"psr-3"
+		"aspetonline"
 	],
 	"authors" : [{
 			"name" : "Mehmet Samli",
@@ -14,14 +12,9 @@
 		}
 	],
 	"require" : {
-		"php" : ">=7.1"
+		"php" : "^7.1"
 	},
 	"autoload" : {
-		"psr-4" : {
-			"Test\\" : "src/Aspet"
-		}
-	},
-	"autoload-dev" : {
 		"psr-4" : {
 			"Test\\" : "src/Aspet"
 		}
