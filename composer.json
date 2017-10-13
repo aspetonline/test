@@ -16,7 +16,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Test\\" : "src/Aspet"
+			"test\\" : "src/Aspet"
 		}
 	},
 	"license" : "LGPL-2.1",
